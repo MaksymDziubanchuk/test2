@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  padding: 0 13px;
+}
+img {
+  display: block;
+}
+button {
+  border: none;
+  cursor: pointer;
+}
+body {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+}

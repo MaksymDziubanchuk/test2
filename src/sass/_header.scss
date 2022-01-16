@@ -1,0 +1,49 @@
+.header {
+  background: url(../images/cleaner-mobile.jpg) no-repeat center center;
+  padding: 280px 0 0 0;
+  background-size: cover;
+  text-align: center;
+}
+.header__mobile-box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  &--offset {
+    margin-bottom: 32px;
+  }
+}
+
+.header__logo {
+  margin: 0 auto;
+  margin-bottom: 19px;
+}
+.header__button {
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.16;
+  padding: 19px 98px;
+  background-color: #b5ca00;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+}
+.header__colum {
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 18px 14px;
+  text-align: left;
+  margin-bottom: -82px;
+}
+.header__subtitle {
+  font-size: 16px;
+  line-height: 1.87;
+  color: #b5ca00;
+  margin-bottom: 10px;
+}
+.header__title {
+  font-weight: normal;
+  font-size: 28px;
+  line-height: calc(33 / 28);
+
+  color: #333333;
+}
